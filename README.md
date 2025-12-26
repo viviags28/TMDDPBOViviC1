@@ -39,7 +39,6 @@ Handles business logic and gameplay:
 Handles GUI:
 - `MenuView` 
 - `GameView` 
-- `Main` 
 
 ---
 
