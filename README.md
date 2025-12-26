@@ -46,7 +46,7 @@ Handles GUI:
 ## How to Compile and Run
 ### Prerequisites
 Before running the game, make sure you have the following installed:
-- Java Development Kit (JDK) JDK 11 or newer is recommended.
+- Java Development Kit (JDK): JDK 11 or newer is recommended.
 - MySQL Server Used to store game results (score, missed bullets, remaining bullets).
 - MySQL Connector/J The JDBC driver (mysql-connector-j-9.5.0.jar) is located in the lib directory.
 
@@ -59,6 +59,7 @@ Before running the game, make sure you have the following installed:
      - peluru_meleset
      - peluru_sisa
    - If needed, adjust database credentials in src/model/Database.java
+    
 2. Compilation
    Open Command Prompt / Terminal in the root directory of the project.
    ### On Windows
@@ -72,7 +73,7 @@ Before running the game, make sure you have the following installed:
    xcopy src\assets bin\assets /E /I /Y
    ```
 
-4. Running the Game
+3. Running the Game
    After successful compilation, run the game using:
 
    ### On Windows
